@@ -1,0 +1,91 @@
+/* Reset básico para garantir que todos os navegadores tenham o mesmo estilo inicial */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos gerais */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 2em 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 0.5em;
+  }
+  
+  header p {
+    font-size: 1.2em;
+  }
+  
+  main {
+    width: 80%;
+    margin: 2em auto;
+  }
+  
+  section {
+    margin-bottom: 2em;
+  }
+  
+  h2 {
+    color: #444;
+    text-align: center;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    margin-bottom: 1em;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  img {
+    max-width: 40%;
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Faz com que a imagem seja tratada como um bloco */
+    margin-left: auto; /* Margem automática esquerda */
+    margin-right: auto; /* Margem automática direita */
+    margin-top: 1em; /* desce uma linha */
+  }
+  
+ .links
+  {
+    width:  600px;
+  display: block;
+max-width: 250%;
+  }
+
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+  }
+  
